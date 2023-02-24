@@ -1,3 +1,8 @@
 :root {
-    --main-color: #006699;
-  }
+  --main-color: #006699;
+  --background-color: #cfe2f3;
+}
+
+* {
+  background-color: var(--background-color);
+}
