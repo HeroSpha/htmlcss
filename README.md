@@ -15,3 +15,11 @@ Here's an example of how to use CSS variables:
     --main-color: #006699;
     }
 ```
+
+and to use the color in any of your css, use it like code below.
+
+```
+  p {
+    color: var(--main-color)
+  }
+```
